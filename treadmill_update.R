@@ -7,7 +7,7 @@ library(tidyverse)
 # Data
 
 ## Data - All campaign committee filings
-## Github link - https://github.com/miaminkin/IO-Congressional-Fundraising-Treadmill-2025/blob/main/congressional_treadmill.csv
+## Link - https://github.com/miaminkin/IO-Congressional-Fundraising-Treadmill-2025/blob/main/data/congressional_treadmill.csv
 
 all_filings <- 
   read_csv("data/congressional_treadmill.csv") |> 
@@ -25,7 +25,7 @@ all_filings <-
     html_url)
   
 ## Data -  Sitting members of the 118th Congress
-## Github link - https://github.com/miaminkin/IO-Congressional-Fundraising-Treadmill-2025/blob/main/members.csv
+## Link -  https://github.com/miaminkin/IO-Congressional-Fundraising-Treadmill-2025/blob/main/data/members.csv
 
 members <- 
   read_csv("data/members.csv") |> 
@@ -195,7 +195,7 @@ members_raised |>
 
 ## CLEAN UP
 
-#C hecking FEC final filings for missing data
+#Checking FEC final filings for missing data
 
 data_check <- 
   member_filings |>

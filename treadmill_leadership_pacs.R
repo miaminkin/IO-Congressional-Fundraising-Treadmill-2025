@@ -6,12 +6,12 @@ library(tidyverse)
 # Data
 
 ## Data - All leadership PAC contributions
-## Link - TK
+## Link - https://github.com/miaminkin/IO-Congressional-Fundraising-Treadmill-2025/blob/main/pac_data/committee_summary_2024.csv
 
 raising_118 <- read_csv("pac_data/committee_summary_2024.csv")
 
 ## Data - All leadership PACs
-## Link - TK
+## Link - https://github.com/miaminkin/IO-Congressional-Fundraising-Treadmill-2025/blob/main/pac_data/leadership_pacs_118.csv
 leadership_pacs <- read_csv("pac_data/leadership_pacs_118.csv")
 
 # Data for only leadership PACs
