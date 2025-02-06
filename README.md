@@ -1,4 +1,4 @@
-This repository contains the data and code needed to replicate Issue One's 2025 [analysis]([url](https://issueone.org/articles/the-118th-congress-fundraising-treadmill/)) of the money raised by the 118th Congress between January 2023 and December 2025 via campaign committees and leadership PACs. 
+This repository contains the data and code needed to replicate Issue One's 2025 [analysis]([https://issueone.org/articles/the-118th-congress-fundraising-treadmill/]) of the money raised by the 118th Congress between January 2023 and December 2025 via campaign committees and leadership PACs. 
 
 **Code for analysis**
 + treadmill_update.R: Contains code to analyze the fundraising of congressional campaign committees.
